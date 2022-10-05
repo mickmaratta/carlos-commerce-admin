@@ -1,0 +1,36 @@
+.container {
+    display: flex;
+    width: 100vw;
+}
+
+.link {
+    text-decoration: none;
+    color: inherit;
+}
+
+.link:visited {
+    text-decoration: none;
+    color: inherit;
+}
+
+.disabled {
+    cursor: not-allowed !important;
+}
+
+.disabled:hover {
+    background-color: inherit;
+}
+
+.success {
+    color: green;
+    font-size: 14px;
+    font-style: italic;
+    padding: 10px;
+}
+
+.error {
+    color: red;
+    font-style: italic;
+    font-size: 14px;
+    padding: 10px;
+}
