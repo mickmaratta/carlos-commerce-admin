@@ -42,7 +42,7 @@ export const deleteProduct = async (id, dispatch) => {
     dispatch(productStart());
     try {
         //DELETE FROM DB
-        const res = await userRequest.delete(`/products/${id}`)
+        //const res = await userRequest.delete(`/products/${id}`)
         dispatch(deleteProductSuccess(id));
     } catch (error) {
         console.log(error)
